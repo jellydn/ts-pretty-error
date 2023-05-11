@@ -1,0 +1,39 @@
+{
+  "version": "2",
+  "remote": {
+    "https://cdn.skypack.dev/error/build:marked@v5.0.1-giEUYmBL0ODRpXJUeLj5": "cb8360c2f21c5070146ac87890de9e92e9a7a8d6cc869fd450f671a2eefc5b19",
+    "https://deno.land/std@0.186.0/fmt/colors.ts": "d67e3cd9f472535241a8e410d33423980bec45047e343577554d3356e1f0ef4e",
+    "https://deno.land/std@0.186.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
+    "https://deno.land/std@0.186.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
+    "https://deno.land/std@0.186.0/testing/asserts.ts": "e16d98b4d73ffc4ed498d717307a12500ae4f2cbe668f1a215632d19fcffc22f"
+  },
+  "npm": {
+    "specifiers": {
+      "@pretty-ts-errors/formatter": "@pretty-ts-errors/formatter@0.1.7_prettier@2.8.8",
+      "marked": "marked@5.0.1",
+      "marked-mangle": "marked-mangle@1.0.1_marked@5.0.1"
+    },
+    "packages": {
+      "@pretty-ts-errors/formatter@0.1.7_prettier@2.8.8": {
+        "integrity": "sha512-7oiBpTUYGQIRkLwyFnMkPD2KTdnwTJZ9QqULNbVaRq+unJ66dV8E6vbg1skcq6qBr0Y3RuszsvxVedxdgZvbJw==",
+        "dependencies": {
+          "prettier": "prettier@2.8.8"
+        }
+      },
+      "marked-mangle@1.0.1_marked@5.0.1": {
+        "integrity": "sha512-ZmWErsTkfE78OFgrpry2XGh+lYNRePfGy7bGh20l4rWHsH+bciKth1IHQXO9B6Ov5dHmY0jAswvgDxtcxGcFQQ==",
+        "dependencies": {
+          "marked": "marked@5.0.1"
+        }
+      },
+      "marked@5.0.1": {
+        "integrity": "sha512-Nn9peC4lvIZdcfp8Uze6xk4ZYowkcj/K6+e/6rLHadhtjqeip/bYRxMgt3124IGGJ3RPs2uX5YVmAGbUutY18g==",
+        "dependencies": {}
+      },
+      "prettier@2.8.8": {
+        "integrity": "sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==",
+        "dependencies": {}
+      }
+    }
+  }
+}
