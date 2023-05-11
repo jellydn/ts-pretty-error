@@ -9,21 +9,13 @@ const cli = meow(
 	Usage
 	  $ ts-pretty-error
 
-	Options
-		--name  Your name
-
 	Examples
-	  $ ts-pretty-error --name=Jane
-	  Hello, Jane
+	  $ ts-pretty-error
 `,
 	{
 		importMeta: import.meta,
-		flags: {
-			name: {
-				type: 'string',
-			},
-		},
+		flags: {},
 	},
 );
 
-render(<App name={cli.flags.name} />);
+render(<App />);

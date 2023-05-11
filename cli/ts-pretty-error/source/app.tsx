@@ -1,14 +1,25 @@
-import React from 'react';
-import {Text} from 'ink';
+import React, { useState } from "react";
 
-type Props = {
-	name: string | undefined;
-};
+import { Box, Text } from "ink";
+import { TextInput } from "@inkjs/ui";
 
-export default function App({name = 'Stranger'}: Props) {
-	return (
-		<Text>
-			Hello, <Text color="green">{name}</Text>
-		</Text>
-	);
+import { prettyErrorMessage } from "./formatter";
+
+export default function App() {
+  const [msg, setMsg] = useState("");
+
+  return (
+    <Box flexDirection="column" gap={1}>
+      <TextInput
+        placeholder="Enter your Typescript error message"
+        onSubmit={(msg) => {
+          setMsg(msg);
+        }}
+      />
+
+      <Text>
+        {prettyErrorMessage(msg)}
+      </Text>
+    </Box>
+  );
 }
