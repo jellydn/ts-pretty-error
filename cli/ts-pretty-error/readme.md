@@ -11,15 +11,11 @@ $ npm install --global ts-pretty-error
 ## CLI
 
 ```
-$ ts-pretty-error --help
+$ npx ts-pretty-error --help
 
   Usage
     $ ts-pretty-error
 
-  Options
-    --name  Your name
-
   Examples
-    $ ts-pretty-error --name=Jane
-    Hello, Jane
+    $ ts-pretty-error
 ```

@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to deno-ts-error-message 👋</h1>
+<h1 align="center">Welcome to ts-pretty-error 👋</h1>
 <p>
 WIP - TBD (CLI or Plugin)
 </p>
@@ -9,10 +9,14 @@ Simple demo usage of [Pretty TypeScript Error formatter](https://github.com/yoav
 
 ## Usage
 
+```sh
+npx ts-pretty-error
+```
+
 #### Initialize
 
 ```sh
-git clone https://github.com/jellydn/deno-ts-error-message
+git clone https://github.com/jellydn/ts-pretty-error
 ```
 
 ### Develop
