@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "3.0.1",
-    "@types/react": "18.2.54",
+    "@types/react": "18.2.55",
     "@vdemedes/prettier-config": "2.0.1",
     "ava": "5.3.1",
     "chalk": "5.3.0",
@@ -50,7 +50,7 @@
     "ts-node": "10.9.2",
     "tsup": "6.7.0",
     "typescript": "5.3.3",
-    "xo": "0.56.0"
+    "xo": "0.57.0"
   },
   "engines": {
     "node": ">=16"
