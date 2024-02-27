@@ -13,7 +13,7 @@ dependencies:
     version: 0.1.7(prettier@2.8.8)
   ink:
     specifier: 4.4.1
-    version: 4.4.1(@types/react@18.2.59)(react@18.2.0)
+    version: 4.4.1(@types/react@18.2.60)(react@18.2.0)
   meow:
     specifier: 12.1.1
     version: 12.1.1
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1
   '@types/react':
-    specifier: 18.2.59
-    version: 18.2.59
+    specifier: 18.2.60
+    version: 18.2.60
   '@vdemedes/prettier-config':
     specifier: 2.0.1
     version: 2.0.1
@@ -48,7 +48,7 @@ devDependencies:
     version: 4.6.0(eslint@8.57.0)
   ink-testing-library:
     specifier: 3.0.0
-    version: 3.0.0(@types/react@18.2.59)
+    version: 3.0.0(@types/react@18.2.60)
   prettier:
     specifier: 2.8.8
     version: 2.8.8
@@ -391,7 +391,7 @@ packages:
       cli-spinners: 2.9.2
       deepmerge: 4.3.1
       figures: 5.0.0
-      ink: 4.4.1(@types/react@18.2.59)(react@18.2.0)
+      ink: 4.4.1(@types/react@18.2.60)(react@18.2.0)
     dev: false
 
   /@isaacs/cliui@8.0.2:
@@ -556,8 +556,8 @@ packages:
   /@types/prop-types@15.7.11:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
 
-  /@types/react@18.2.59:
-    resolution: {integrity: sha512-DE+F6BYEC8VtajY85Qr7mmhTd/79rJKIHCg99MU9SWPB4xvLb6D1za2vYflgZfmPqQVEr6UqJTnLXEwzpVPuOg==}
+  /@types/react@18.2.60:
+    resolution: {integrity: sha512-dfiPj9+k20jJrLGOu9Nf6eqxm2EyJRrq2NvwOFsfbb7sFExZ9WELPs67UImHj3Ayxg8ruTtKtNnbjaF8olPq0A==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -2681,7 +2681,7 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
-  /ink-testing-library@3.0.0(@types/react@18.2.59):
+  /ink-testing-library@3.0.0(@types/react@18.2.60):
     resolution: {integrity: sha512-ItyyoOmcm6yftb7c5mZI2HU22BWzue8PBbO3DStmY8B9xaqfKr7QJONiWOXcwVsOk/6HuVQ0v7N5xhPaR3jycA==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -2690,10 +2690,10 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.59
+      '@types/react': 18.2.60
     dev: true
 
-  /ink@4.4.1(@types/react@18.2.59)(react@18.2.0):
+  /ink@4.4.1(@types/react@18.2.60)(react@18.2.0):
     resolution: {integrity: sha512-rXckvqPBB0Krifk5rn/5LvQGmyXwCUpBfmTwbkQNBY9JY8RSl3b8OftBNEYxg4+SWUhEKcPifgope28uL9inlA==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -2707,7 +2707,7 @@ packages:
         optional: true
     dependencies:
       '@alcalzone/ansi-tokenize': 0.1.3
-      '@types/react': 18.2.59
+      '@types/react': 18.2.60
       ansi-escapes: 6.2.0
       auto-bind: 5.0.1
       chalk: 5.3.0
