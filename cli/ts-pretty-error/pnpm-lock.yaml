@@ -62,8 +62,8 @@ devDependencies:
     specifier: 5.5.4
     version: 5.5.4
   xo:
-    specifier: 0.59.0
-    version: 0.59.0(webpack@5.93.0)
+    specifier: 0.59.2
+    version: 0.59.2(webpack@5.93.0)
 
 packages:
 
@@ -5042,8 +5042,8 @@ packages:
         optional: true
     dev: false
 
-  /xo@0.59.0(webpack@5.93.0):
-    resolution: {integrity: sha512-SBYYsZahFkdKKuz53Y3szikIfyAk1EVQimdwwXbxXKh35vwq7OEZWuezPda2wWizYGnJ7ZVfNxem4qc+BI60rg==}
+  /xo@0.59.2(webpack@5.93.0):
+    resolution: {integrity: sha512-sg7MEgQp/I7KW8ssUdTsO0JmOjppPWx3m3y1/T0r5lQY9n4UAUjF2zuPX/C0IcwrNwFpdHoSYcbHUdGEmWUFmw==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
