@@ -39,10 +39,10 @@ devDependencies:
     version: 5.3.0
   eslint-config-xo-react:
     specifier: 0.27.0
-    version: 0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.35.0)(eslint@8.57.0)
+    version: 0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.35.1)(eslint@8.57.0)
   eslint-plugin-react:
-    specifier: 7.35.0
-    version: 7.35.0(eslint@8.57.0)
+    specifier: 7.35.1
+    version: 7.35.1(eslint@8.57.0)
   eslint-plugin-react-hooks:
     specifier: 4.6.2
     version: 4.6.2(eslint@8.57.0)
@@ -1821,7 +1821,7 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-config-xo-react@0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.35.0)(eslint@8.57.0):
+  /eslint-config-xo-react@0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.35.1)(eslint@8.57.0):
     resolution: {integrity: sha512-wiV215xQIn71XZyyVfaOXHaFpR1B14IJttwOjMi/eqUK1s+ojJdHr7eHqTLaGUfh6FKgWha1QNwePlIXx7mBUg==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1830,7 +1830,7 @@ packages:
       eslint-plugin-react-hooks: '>=4.3.0'
     dependencies:
       eslint: 8.57.0
-      eslint-plugin-react: 7.35.0(eslint@8.57.0)
+      eslint-plugin-react: 7.35.1(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.0)
     dev: true
 
@@ -2078,8 +2078,8 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-react@7.35.0(eslint@8.57.0):
-    resolution: {integrity: sha512-v501SSMOWv8gerHkk+IIQBkcGRGrO2nfybfj5pLxuJNFTPxxA3PSryhXTK+9pNbtkggheDdsC0E9Q8CuPk6JKA==}
+  /eslint-plugin-react@7.35.1(eslint@8.57.0):
+    resolution: {integrity: sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
