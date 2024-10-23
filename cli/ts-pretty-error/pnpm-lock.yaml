@@ -13,7 +13,7 @@ dependencies:
     version: 0.1.7(prettier@2.8.8)
   ink:
     specifier: 4.4.1
-    version: 4.4.1(@types/react@18.3.11)(react@18.3.1)
+    version: 4.4.1(@types/react@18.3.12)(react@18.3.1)
   meow:
     specifier: 12.1.1
     version: 12.1.1
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1
   '@types/react':
-    specifier: 18.3.11
-    version: 18.3.11
+    specifier: 18.3.12
+    version: 18.3.12
   '@vdemedes/prettier-config':
     specifier: 2.0.1
     version: 2.0.1
@@ -39,16 +39,16 @@ devDependencies:
     version: 5.3.0
   eslint-config-xo-react:
     specifier: 0.27.0
-    version: 0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.37.1)(eslint@8.57.1)
+    version: 0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.37.2)(eslint@8.57.1)
   eslint-plugin-react:
-    specifier: 7.37.1
-    version: 7.37.1(eslint@8.57.1)
+    specifier: 7.37.2
+    version: 7.37.2(eslint@8.57.1)
   eslint-plugin-react-hooks:
     specifier: 4.6.2
     version: 4.6.2(eslint@8.57.1)
   ink-testing-library:
     specifier: 3.0.0
-    version: 3.0.0(@types/react@18.3.11)
+    version: 3.0.0(@types/react@18.3.12)
   prettier:
     specifier: 2.8.8
     version: 2.8.8
@@ -389,7 +389,7 @@ packages:
       cli-spinners: 2.9.2
       deepmerge: 4.3.1
       figures: 5.0.0
-      ink: 4.4.1(@types/react@18.3.11)(react@18.3.1)
+      ink: 4.4.1(@types/react@18.3.12)(react@18.3.1)
     dev: false
 
   /@isaacs/cliui@8.0.2:
@@ -560,8 +560,8 @@ packages:
   /@types/prop-types@15.7.13:
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
-  /@types/react@18.3.11:
-    resolution: {integrity: sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==}
+  /@types/react@18.3.12:
+    resolution: {integrity: sha512-D2wOSq/d6Agt28q7rSI3jhU7G6aiuzljDGZ2hTZHIkrTLUI+AF3WMeKkEZ9nN2fkBAlcktT6vcZjDFiIhMYEQw==}
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
@@ -1814,7 +1814,7 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-config-xo-react@0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.37.1)(eslint@8.57.1):
+  /eslint-config-xo-react@0.27.0(eslint-plugin-react-hooks@4.6.2)(eslint-plugin-react@7.37.2)(eslint@8.57.1):
     resolution: {integrity: sha512-wiV215xQIn71XZyyVfaOXHaFpR1B14IJttwOjMi/eqUK1s+ojJdHr7eHqTLaGUfh6FKgWha1QNwePlIXx7mBUg==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -1823,7 +1823,7 @@ packages:
       eslint-plugin-react-hooks: '>=4.3.0'
     dependencies:
       eslint: 8.57.1
-      eslint-plugin-react: 7.37.1(eslint@8.57.1)
+      eslint-plugin-react: 7.37.2(eslint@8.57.1)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
     dev: true
 
@@ -2072,8 +2072,8 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-plugin-react@7.37.1(eslint@8.57.1):
-    resolution: {integrity: sha512-xwTnwDqzbDRA8uJ7BMxPs/EXRB3i8ZfnOIp8BsxEQkT0nHPp+WWceqGgo6rKb9ctNi8GJLDT4Go5HAWELa/WMg==}
+  /eslint-plugin-react@7.37.2(eslint@8.57.1):
+    resolution: {integrity: sha512-EsTAnj9fLVr/GZleBLFbj/sSuXeWmp1eXIN60ceYnZveqEaUCyW4X+Vh4WTdUhCkW4xutXYqTXCUSyqD4rB75w==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -2766,7 +2766,7 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
-  /ink-testing-library@3.0.0(@types/react@18.3.11):
+  /ink-testing-library@3.0.0(@types/react@18.3.12):
     resolution: {integrity: sha512-ItyyoOmcm6yftb7c5mZI2HU22BWzue8PBbO3DStmY8B9xaqfKr7QJONiWOXcwVsOk/6HuVQ0v7N5xhPaR3jycA==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -2775,10 +2775,10 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.3.11
+      '@types/react': 18.3.12
     dev: true
 
-  /ink@4.4.1(@types/react@18.3.11)(react@18.3.1):
+  /ink@4.4.1(@types/react@18.3.12)(react@18.3.1):
     resolution: {integrity: sha512-rXckvqPBB0Krifk5rn/5LvQGmyXwCUpBfmTwbkQNBY9JY8RSl3b8OftBNEYxg4+SWUhEKcPifgope28uL9inlA==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -2792,7 +2792,7 @@ packages:
         optional: true
     dependencies:
       '@alcalzone/ansi-tokenize': 0.1.3
-      '@types/react': 18.3.11
+      '@types/react': 18.3.12
       ansi-escapes: 6.2.1
       auto-bind: 5.0.1
       chalk: 5.3.0
