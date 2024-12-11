@@ -32,7 +32,7 @@
   "dependencies": {
     "@inkjs/ui": "1.0.0",
     "@pretty-ts-errors/formatter": "0.1.7",
-    "ink": "4.4.1",
+    "ink": "5.1.0",
     "meow": "12.1.1",
     "react": "18.3.1"
   },
