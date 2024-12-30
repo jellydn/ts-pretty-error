@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@sindresorhus/tsconfig':
-    specifier: 3.0.1
-    version: 3.0.1
+    specifier: 7.0.0
+    version: 7.0.0
   '@types/react':
     specifier: 18.3.18
     version: 18.3.18
@@ -498,9 +498,9 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@sindresorhus/tsconfig@3.0.1:
-    resolution: {integrity: sha512-0/gtPNTY3++0J2BZM5nHHULg0BIMw886gqdn8vWN+Av6bgF5ZU2qIcHubAn+Z9KNvJhO8WFE+9kDOU3n6OcKtA==}
-    engines: {node: '>=14'}
+  /@sindresorhus/tsconfig@7.0.0:
+    resolution: {integrity: sha512-i5K04hLAP44Af16zmDjG07E1NHuDgCM07SJAT4gY0LZSRrWYzwt4qkLem6TIbIVh0k51RkN2bF+lP+lM5eC9fw==}
+    engines: {node: '>=18'}
     dev: true
 
   /@tsconfig/node10@1.0.11:
