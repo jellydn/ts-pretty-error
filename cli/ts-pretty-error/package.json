@@ -34,17 +34,17 @@
     "@pretty-ts-errors/formatter": "0.1.7",
     "ink": "4.4.1",
     "meow": "12.1.1",
-    "react": "18.3.1"
+    "react": "19.0.0"
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "3.0.1",
-    "@types/react": "18.3.18",
+    "@types/react": "19.0.10",
     "@vdemedes/prettier-config": "2.0.1",
     "ava": "5.3.1",
     "chalk": "5.4.1",
     "eslint-config-xo-react": "0.28.0",
     "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-hooks": "5.1.0",
     "ink-testing-library": "3.0.0",
     "prettier": "2.8.8",
     "ts-node": "10.9.2",
