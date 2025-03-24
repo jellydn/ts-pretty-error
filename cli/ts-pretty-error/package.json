@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "3.0.1",
-    "@types/react": "18.3.19",
+    "@types/react": "18.3.20",
     "@vdemedes/prettier-config": "2.0.1",
     "ava": "5.3.1",
     "chalk": "5.4.1",
