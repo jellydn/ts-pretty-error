@@ -62,8 +62,8 @@ devDependencies:
     specifier: 5.8.3
     version: 5.8.3
   xo:
-    specifier: 0.61.1
-    version: 0.61.1(typescript@5.8.3)
+    specifier: 1.0.0
+    version: 1.0.0(typescript@5.8.3)
 
 packages:
 
@@ -4724,8 +4724,8 @@ packages:
         optional: true
     dev: false
 
-  /xo@0.61.1(typescript@5.8.3):
-    resolution: {integrity: sha512-R1M7CEvOlt1wAzRndUeC/jhLTMy0/CYVwKEgEIb3xm3erN0jzqHHm1TMFlJC1N36SHmc+h2Ku4qouUOC2L2xyw==}
+  /xo@1.0.0(typescript@5.8.3):
+    resolution: {integrity: sha512-KwGA+L48Am+EzGrThUH4z4hzJt5J9O0nX2dEvV28owfpUFb3OZyLM2VG1qdxoy073mwKoDWJ7BcKFHrUwNvbzg==}
     engines: {node: '>=20.17'}
     hasBin: true
     peerDependencies:
