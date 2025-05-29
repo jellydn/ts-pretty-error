@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@sindresorhus/tsconfig':
-    specifier: 3.0.1
-    version: 3.0.1
+    specifier: 7.0.0
+    version: 7.0.0
   '@types/react':
     specifier: 18.3.23
     version: 18.3.23
@@ -571,11 +571,6 @@ packages:
   /@sindresorhus/merge-streams@4.0.0:
     resolution: {integrity: sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==}
     engines: {node: '>=18'}
-    dev: true
-
-  /@sindresorhus/tsconfig@3.0.1:
-    resolution: {integrity: sha512-0/gtPNTY3++0J2BZM5nHHULg0BIMw886gqdn8vWN+Av6bgF5ZU2qIcHubAn+Z9KNvJhO8WFE+9kDOU3n6OcKtA==}
-    engines: {node: '>=14'}
     dev: true
 
   /@sindresorhus/tsconfig@7.0.0:
