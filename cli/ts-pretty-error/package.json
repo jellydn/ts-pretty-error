@@ -38,18 +38,18 @@
   },
   "devDependencies": {
     "@sindresorhus/tsconfig": "3.0.1",
-    "@types/react": "18.3.24",
+    "@types/react": "18.3.28",
     "@vdemedes/prettier-config": "2.0.1",
     "ava": "5.3.1",
     "chalk": "5.6.2",
-    "eslint-config-xo-react": "0.28.0",
+    "eslint-config-xo-react": "0.29.0",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "4.6.2",
     "ink-testing-library": "3.0.0",
     "prettier": "2.8.8",
     "ts-node": "10.9.2",
     "tsup": "6.7.0",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "xo": "0.61.1"
   },
   "engines": {
