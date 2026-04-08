@@ -38,8 +38,8 @@ devDependencies:
     specifier: 5.6.2
     version: 5.6.2
   eslint-config-xo-react:
-    specifier: 0.29.0
-    version: 0.29.0(eslint@9.27.0)
+    specifier: 0.30.0
+    version: 0.30.0(eslint@9.27.0)
   eslint-plugin-react:
     specifier: 7.37.5
     version: 7.37.5(eslint@9.27.0)
@@ -74,15 +74,6 @@ packages:
       ansi-styles: 6.2.1
       is-fullwidth-code-point: 4.0.0
     dev: false
-
-  /@babel/code-frame@7.27.1:
-    resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.27.1
-      js-tokens: 4.0.0
-      picocolors: 1.1.1
-    dev: true
 
   /@babel/code-frame@7.29.0:
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
@@ -635,14 +626,14 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/trace-mapping': 0.3.31
     dev: true
 
   /@jridgewell/remapping@2.3.5:
     resolution: {integrity: sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.8
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.31
     dev: true
 
   /@jridgewell/resolve-uri@3.1.2:
@@ -657,13 +648,6 @@ packages:
 
   /@jridgewell/sourcemap-codec@1.5.0:
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
-    dev: true
-
-  /@jridgewell/trace-mapping@0.3.25:
-    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /@jridgewell/trace-mapping@0.3.31:
@@ -2068,8 +2052,8 @@ packages:
       eslint-plugin-react-hooks: 5.2.0(eslint@9.27.0)
     dev: true
 
-  /eslint-config-xo-react@0.29.0(eslint@9.27.0):
-    resolution: {integrity: sha512-OiA3fnGu5tkQkcFhXV1J9ZTUr25DDVoGpBdA2dowH6rNZFDed+WtxzcoUNwQNFXqWRAjsFjuxAzw3c1iAHom0Q==}
+  /eslint-config-xo-react@0.30.0(eslint@9.27.0):
+    resolution: {integrity: sha512-jOHxOsQmaoBTF5vp4+Eu3TaTsUAp/XWnnhfrCTtNwznmEB41WaR6G/7eezxf+8AOW5lMrafUnFvmgae3LPQ+LA==}
     engines: {node: '>=18.18'}
     peerDependencies:
       eslint: '>=9.18.0'
@@ -3835,7 +3819,7 @@ packages:
     resolution: {integrity: sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/code-frame': 7.27.1
+      '@babel/code-frame': 7.29.0
       error-ex: 1.3.2
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
