@@ -38,8 +38,8 @@ devDependencies:
     specifier: 5.6.2
     version: 5.6.2
   eslint-config-xo-react:
-    specifier: 0.30.0
-    version: 0.30.0(eslint@9.27.0)
+    specifier: 0.30.1
+    version: 0.30.1(eslint@9.27.0)
   eslint-plugin-react:
     specifier: 7.37.5
     version: 7.37.5(eslint@9.27.0)
@@ -2052,8 +2052,8 @@ packages:
       eslint-plugin-react-hooks: 5.2.0(eslint@9.27.0)
     dev: true
 
-  /eslint-config-xo-react@0.30.0(eslint@9.27.0):
-    resolution: {integrity: sha512-jOHxOsQmaoBTF5vp4+Eu3TaTsUAp/XWnnhfrCTtNwznmEB41WaR6G/7eezxf+8AOW5lMrafUnFvmgae3LPQ+LA==}
+  /eslint-config-xo-react@0.30.1(eslint@9.27.0):
+    resolution: {integrity: sha512-oiAdOnjyIyS5/uJsVHeeLR5P2e8rkiA+NVYLi0UC9Ulcrehdg3wMj4bPmPK/ogkypxGi0DAw2SBD4VoVxJu9ng==}
     engines: {node: '>=18.18'}
     peerDependencies:
       eslint: '>=9.18.0'
